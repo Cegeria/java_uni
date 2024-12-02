@@ -68,56 +68,6 @@ public class Main {
         // демонстрация приоритета операторов с помощью скобок
         int complexExpression = (a + b) * (b - a); // сначала сложение и вычитание, затем умножение
 
-        // пример использования instanceof
-        Object obj = str1;
-        if (obj instanceof String) {
-            System.out.println("obj является экземпляром String");
-        }
-
-        // пример использования instanceof с null-значением
-        obj = null;
-        if (obj instanceof String) {
-            System.out.println("Этот код не выполнится");
-        } else {
-            System.out.println("obj является null и не является экземпляром String");
-        }
-
-        // Вывод результатов
-        printResults(a, b, min, result, bitOr, bitXor, bitAnd, isEqual, isNotEqual, isGreater, isLessEqual, rightShift, unsignedRightShift, leftShift, sum, diff, product, quotient, remainder, preIncrement, postIncrement, preDecrement, postDecrement, concatenation, strEqual, strNotEqual, complexExpression);
-    }
-
-    /**
-     * Вывод результатов на консоль.
-     *
-     * @param a первое целое число
-     * @param b второе целое число
-     * @param min минимальное значение из a и b
-     * @param result результат логических операций
-     * @param bitOr результат побитового ИЛИ
-     * @param bitXor результат побитового исключающего ИЛИ
-     * @param bitAnd результат побитового И
-     * @param isEqual результат проверки равенства
-     * @param isNotEqual результат проверки неравенства
-     * @param isGreater результат проверки "больше"
-     * @param isLessEqual результат проверки "меньше или равно"
-     * @param rightShift результат сдвига вправо
-     * @param unsignedRightShift результат беззнакового сдвига вправо
-     * @param leftShift результат сдвига влево
-     * @param sum результат сложения
-     * @param diff результат вычитания
-     * @param product результат умножения
-     * @param quotient результат деления
-     * @param remainder результат операции остатка от деления
-     * @param preIncrement результат префиксного инкремента
-     * @param postIncrement результат постфиксного инкремента
-     * @param preDecrement результат префиксного декремента
-     * @param postDecrement результат постфиксного декремента
-     * @param concatenation результат конкатенации строк
-     * @param strEqual результат проверки равенства строк
-     * @param strNotEqual результат проверки неравенства строк
-     * @param complexExpression результат сложного выражения
-     */
-    public static void printResults(int a, int b, int min, boolean result, int bitOr, int bitXor, int bitAnd, boolean isEqual, boolean isNotEqual, boolean isGreater, boolean isLessEqual, int rightShift, int unsignedRightShift, int leftShift, int sum, int diff, int product, int quotient, int remainder, int preIncrement, int postIncrement, int preDecrement, int postDecrement, String concatenation, boolean strEqual, boolean strNotEqual, int complexExpression) {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("min = " + min);
@@ -145,5 +95,20 @@ public class Main {
         System.out.println("strEqual = " + strEqual);
         System.out.println("strNotEqual = " + strNotEqual);
         System.out.println("complexExpression = " + complexExpression);
+
+        // пример использования instanceof
+        Object obj = str1;
+        if (obj instanceof String) {
+            System.out.println("obj является экземпляром String");
+        }
+
+        // пример использования instanceof с null-значением
+        obj = null;
+        if (obj instanceof String) {
+            System.out.println("Этот код не выполнится");
+        } else {
+            System.out.println("obj является null и не является экземпляром String");
+        }
+
     }
 }
