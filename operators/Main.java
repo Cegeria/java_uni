@@ -1,4 +1,4 @@
-public class OperatorExamples {
+public class Main {
     
     public static void main(String[] args) {
         // базовые типы
