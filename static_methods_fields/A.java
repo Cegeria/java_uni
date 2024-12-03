@@ -8,8 +8,8 @@ public class A {
     }
 	public static void main(String[] args) {
 		A obj = new A();
-		obj.printVars();
+		obj.printVars(); // Вызов с созданием объекта класса
 
-		A.printVars();
+		A.printVars(); // Вызов без создания объекта класса
 	}
 }
