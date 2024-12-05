@@ -1,0 +1,2 @@
+This is a message in a file
+This is a secon line in a message
