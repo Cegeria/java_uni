@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public}\PYG{+w}{ }\PYG{n}{String}\PYG{+w}{ }\PYG{n+nf}{joinNumbers}\PYG{p}{(}\PYG{n}{Collection}\PYG{o}{\PYGZlt{}}\PYG{n}{Integer}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{numbers}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{   }\PYG{n}{StringBuilder}\PYG{+w}{ }\PYG{n}{result}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{StringBuilder}\PYG{p}{();}
+\PYG{+w}{   }\PYG{k+kt}{boolean}\PYG{+w}{ }\PYG{n}{first}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{true}\PYG{p}{;}
+\PYG{+w}{   }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Integer}\PYG{+w}{ }\PYG{n}{number}\PYG{+w}{ }\PYG{p}{:}\PYG{+w}{ }\PYG{n}{numbers}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{first}\PYG{p}{)}
+\PYG{+w}{         }\PYG{n}{first}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{else}
+\PYG{+w}{         }\PYG{n}{result}\PYG{p}{.}\PYG{n+na}{append}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}, \PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{      }\PYG{n}{result}\PYG{p}{.}\PYG{n+na}{append}\PYG{p}{(}\PYG{n}{number}\PYG{p}{);}
+\PYG{+w}{   }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{   }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{result}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{interface} \PYG{n+nc}{Function}\PYG{o}{\PYGZlt{}}\PYG{n}{F}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{T}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{   }\PYG{n}{T}\PYG{+w}{ }\PYG{n+nf}{apply}\PYG{p}{(}\PYG{n}{F}\PYG{+w}{ }\PYG{n}{from}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,14 @@
+\frametitle{Пример: использование функции-предиката}
+\begin{minted}{java}
+static Predicate<Integer> is_odd = new Predicate<Integer>() {
+   @Override
+   public boolean test(Integer t) {
+      return (t % 2 != 0);
+   }
+};
+
+public static ArrayList<Integer>
+filterOddNumbers(ArrayList<Integer> numbers) {
+   return filter(numbers, is_odd);
+}
+^^I\end{minted}
