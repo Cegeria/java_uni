@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.1)  15 DEC 2024 23:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.1)  16 DEC 2024 06:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1257,13 +1257,13 @@ LaTeX Info: Redefining \th on input line 24.
 ] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1346,10 +1346,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (./pres.vrb
 \openout5 = `pres.pyg'.
 
-runsystem(pygmentize -l 'java' -f latex -P commandprefix=PYG -F tokenmerge -P s
-tripnl='False' -o _minted-pres/1871D0C8138EC65424D468F998F60B067F1C8B966C203F76
-4E31D2C04494C723.pygtex pres.pyg)...executed.
-
 
 (./_minted-pres/1871D0C8138EC65424D468F998F60B067F1C8B966C203F764E31D2C04494C72
 3.pygtex)) [11
@@ -1359,10 +1355,6 @@ tripnl='False' -o _minted-pres/1871D0C8138EC65424D468F998F60B067F1C8B966C203F76
 
  (./pres.vrb
 \openout5 = `pres.pyg'.
-
-runsystem(pygmentize -l 'java' -f latex -P commandprefix=PYG -F tokenmerge -P s
-tripnl='False' -o _minted-pres/8ECD8C7886CCF25A6520C02D5909172A7F1C8B966C203F76
-4E31D2C04494C723.pygtex pres.pyg)...executed.
 
 
 (./_minted-pres/8ECD8C7886CCF25A6520C02D5909172A7F1C8B966C203F764E31D2C04494C72
@@ -1378,12 +1370,6 @@ tripnl='False' -o _minted-pres/8ECD8C7886CCF25A6520C02D5909172A7F1C8B966C203F76
 \tf@snm=\write10
 \openout10 = `pres.snm'.
 
-runsystem(rm _minted-pres/B9467331FCBB090E76157B12351505707F1C8B966C203F764E31D
-2C04494C723.pygtex)...executed.
-
-runsystem(rm _minted-pres/0424A8151EA41FCF6B167D956355C2E57F1C8B966C203F764E31D
-2C04494C723.pygtex)...executed.
-
  (./pres.aux)
 Package rerunfilecheck Info: File `pres.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1391,10 +1377,10 @@ runsystem(rm pres.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 28299 strings out of 476683
- 606371 string characters out of 5804047
+ 28293 strings out of 476683
+ 605883 string characters out of 5804047
  1855018 words of memory out of 5000000
- 47871 multiletter control sequences out of 15000+600000
+ 47867 multiletter control sequences out of 15000+600000
  517703 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,14n,122p,437b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
